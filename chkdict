@@ -8,6 +8,7 @@
 from __future__ import absolute_import, division, print_function
 
 import sys, gzip
+print("carolyn")
 try:
     from cPickle import load as pickle_load
 except ImportError:
@@ -15,6 +16,7 @@ except ImportError:
     pickle_load = lambda f: pickle.load(f, encoding='bytes')
 
 import bloom
+print("carolyn")
 
 
 # Poor man's argument handling
